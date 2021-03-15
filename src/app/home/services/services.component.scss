@@ -1,0 +1,28 @@
+// a {
+//     text-shadow: 1px 1px 0 #1c20243a, -1px 1px 0 #1c20243a, 1px -1px 0 #1c20243a, -1px -1px 0 #1c20243a, 0px 1px 0 #1c20243a, 0px -1px 0 #1c20243a, -1px 0px 0 #1c20243a, 1px 0px 0 #1c20243a, 2px 2px 0 #1c20243a, -2px 2px 0 #1c20243a, 2px -2px 0 #1c20243a, -2px -2px 0 #1c20243a, 0px 2px 0 #1c20243a, 0px -2px 0 #1c20243a, -2px 0px 0 #1c20243a, 2px 0px 0 #1c20243a, 1px 2px 0 #1c20243a, -1px 2px 0 #1c20243a, 1px -2px 0 #1c20243a, -1px -2px 0 #1c20243a, 2px 1px 0 #1c20243a, -2px 1px 0 #1c20243a, 2px -1px 0 #1c20243a, -2px -1px 0 #1c20243a;
+// }
+
+@import "../../../colors.scss";
+
+h1 {
+    font-size: 3rem;
+}
+
+h1,
+h3 {
+    font-family: "Josefin Sans";
+    font-weight: 700;
+}
+
+h3.red {
+    color: $red-400;
+}
+
+h3.blue {
+    color: $blue-400;
+}
+
+p {
+    font-size: 0.9rem;
+    font-weight: 700;
+}
