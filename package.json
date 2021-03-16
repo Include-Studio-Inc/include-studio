@@ -5,8 +5,8 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "prod": "ng build --prod --base-href https://Include-Studio-Inc.github.io/Include-website",
-    "github": "ngh --branch=gh-pages"
+    "prod": "ng build --prod",
+    "github": "ngh --dir=dist/IncludeWebsite"
   },
   "private": true,
   "dependencies": {
