@@ -1,18 +1,20 @@
 <header>
     <mat-toolbar id="navbar" [ngClass]="(isHandset$ | async) ? 'bg-white' : 'bg-transparent'">
         <ng-container *ngIf="(isHandset$ | async) ? true : false; else elseToolbarContent">
+            <!-- Mobile -->
             <button class="mr-3" #menuButton type="button" aria-label="Toggle sidenav" mat-icon-button (click)="drawer.toggle();">
                 <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
             </button>
-            <img src="assets/IncludeStudio.svg" class="logo-mobile" height="40px" width="auto">
+            <img src="assets/IncludeStudio.svg" class="logo-mobile cursor" height="40px" width="auto" [routerLink]="['/']" (click)="scroll('home')">
         </ng-container>
         <ng-template #elseToolbarContent>
+            <!-- Desktop -->
             <div class="container">
-                <img src="assets/IncludeStudio.svg" height="40px" width="auto">
-                <button mat-button color="accent" class="mx-2 font-weight-bold" (click)="scroll('home')">Home</button>
-                <button mat-button color="accent" class="mx-2 font-weight-bold" (click)="scroll('about')">About us</button>
-                <button mat-button color="accent" class="mx-2 font-weight-bold" (click)="scroll('services')">Services</button>
-                <button mat-button color="accent" class="mx-2 font-weight-bold" (click)="scroll('team')">Team</button>
+                <img src="assets/IncludeStudio.svg" class="cursor" height="40px" width="auto" [routerLink]="['/']" (click)="scroll('home')">
+                <button mat-button color="{{activeMenu == 'home' ? 'primary' : 'accent'}}" class="mx-2 font-weight-bold" (click)="scroll('home')">Início</button>
+                <button mat-button color="{{activeMenu == 'about' ? 'primary' : 'accent'}}" class="mx-2 font-weight-bold" (click)="scroll('about')">Sobre</button>
+                <button mat-button color="{{activeMenu == 'services' ? 'primary' : 'accent'}}" class="mx-2 font-weight-bold" (click)="scroll('services')">Serviços</button>
+                <button mat-button color="{{activeMenu == 'team' ? 'primary' : 'accent'}}" class="mx-2 font-weight-bold" (click)="scroll('team')">Equipe</button>
             </div>
         </ng-template>
     </mat-toolbar>
@@ -21,17 +23,17 @@
 <mat-sidenav-container>
     <mat-sidenav #drawer class="sidenav border-0" [mode]="'over'" [fixedInViewport]="true" fixedTopGap="56">
         <mat-nav-list class="p-0 d-flex align-items-start flex-column h-100">
-            <a mat-list-item (click)="scrollAndClose(drawer, 'home')" [ngClass]="activeMenu == 'home' ? 'selected-item' : ''">
-                <span>Home</span>
+            <a mat-list-item (click)="scrollAndClose(drawer, 'home')" class="list-height" [ngClass]="activeMenu == 'home' ? 'selected-item' : ''">
+                <span>Início</span>
             </a>
-            <a mat-list-item (click)="scrollAndClose(drawer, 'about')" [ngClass]="activeMenu == 'about' ? 'selected-item' : ''">
-                <span>About us</span>
+            <a mat-list-item (click)="scrollAndClose(drawer, 'about')" class="list-height" [ngClass]="activeMenu == 'about' ? 'selected-item' : ''">
+                <span>Sobre</span>
             </a>
-            <a mat-list-item (click)="scrollAndClose(drawer, 'services')" [ngClass]="activeMenu == 'services' ? 'selected-item' : ''">
-                <span>Services</span>
+            <a mat-list-item (click)="scrollAndClose(drawer, 'services')" class="list-height" [ngClass]="activeMenu == 'services' ? 'selected-item' : ''">
+                <span>Serviços</span>
             </a>
-            <a mat-list-item (click)="scrollAndClose(drawer, 'team')" [ngClass]="activeMenu == 'team' ? 'selected-item' : ''">
-                <span>Team</span>
+            <a mat-list-item (click)="scrollAndClose(drawer, 'team')" class="list-height" [ngClass]="activeMenu == 'team' ? 'selected-item' : ''">
+                <span>Equipe</span>
             </a>
             <div class="flex-grow-1"></div>
         </mat-nav-list>

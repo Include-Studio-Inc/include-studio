@@ -34,7 +34,12 @@ fa-icon {
     -webkit-font-smooth: antialiased;
 }
 
+.list-height {
+    height: 56px !important;
+}
+
 .mat-list-item {
+    font-size: 1.3rem;
     overflow: hidden;
     font-weight: bold;
     white-space: nowrap;
