@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1616002277063,
+  "timestamp": 1616002419083,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -85,9 +85,9 @@
     "/assets/team/HumbertoFoto1.jpg": "e6ed3120e3f61258e25fdc3364d9983e451274d5",
     "/bg.11dc837bd04d46c73d7f.jpg": "e984c3411408abf7134173e6d2ca2b18258daedf",
     "/favicon.ico": "792713b520401b4fe994618e6a4f95d345be393b",
-    "/index.html": "dd40274dbe3cfa450f3160e34974760f4336a86a",
+    "/index.html": "6bd72d66f5b9c543a8aea53c80c7048a25db3a90",
     "/main.bbde7bcf6e312651f272.js": "6cca9db668841c00c4fb14ca587c86da49fcb98a",
-    "/manifest.webmanifest": "56af6fea2a3a2b6cd59d41c9b46f9a88d8cc2125",
+    "/manifest.webmanifest": "5a3c45cf2a0cec80b577da72bb0760a7e4192cbe",
     "/pattern.7fbe9d07a32af678461b.png": "1b84745c361d3dbb5db3fef2c5e3c21e862aa2f7",
     "/polyfills.6abdde2583a2e01a2350.js": "f888b31e000d9b05c8c3fef19c325d813f2b7e1b",
     "/runtime.7b63b9fd40098a2e8207.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
