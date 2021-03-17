@@ -1,0 +1,115 @@
+{
+  "configVersion": 1,
+  "timestamp": 1616001144541,
+  "index": "/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/favicon.ico",
+        "/index.html",
+        "/main.bbde7bcf6e312651f272.js",
+        "/manifest.webmanifest",
+        "/polyfills.6abdde2583a2e01a2350.js",
+        "/runtime.7b63b9fd40098a2e8207.js",
+        "/styles.d0b4f7742cff6d0e34c9.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/assets/IncludeStudio.svg",
+        "/assets/IncludeStudio_.svg",
+        "/assets/bg.jpg",
+        "/assets/icons/icon-128x128.png",
+        "/assets/icons/icon-144x144.png",
+        "/assets/icons/icon-152x152.png",
+        "/assets/icons/icon-192x192.png",
+        "/assets/icons/icon-384x384.png",
+        "/assets/icons/icon-512x512.png",
+        "/assets/icons/icon-72x72.png",
+        "/assets/icons/icon-96x96.png",
+        "/assets/pattern.png",
+        "/assets/svg-animated/404-error-animate.svg",
+        "/assets/svg-animated/artificial-intelligence-animate.svg",
+        "/assets/svg-animated/robotics-animate.svg",
+        "/assets/svg-animated/server-animate.svg",
+        "/assets/svg-animated/under-construction-animate.svg",
+        "/assets/svg-animated/www-animate.svg",
+        "/assets/team/AugustoFoto.jpeg",
+        "/assets/team/GregoriFoto.jpg",
+        "/assets/team/GuilhermeFoto.jpg",
+        "/assets/team/HumbertoFoto.jpg",
+        "/assets/team/HumbertoFoto1.jpg",
+        "/bg.11dc837bd04d46c73d7f.jpg",
+        "/pattern.7fbe9d07a32af678461b.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/assets/IncludeStudio.svg": "9dad200769f23e1d7e062bd3a54af9477f7e74a7",
+    "/assets/IncludeStudio_.svg": "60aab8d5be5171582aa0afaed87f93ded14ce220",
+    "/assets/bg.jpg": "e984c3411408abf7134173e6d2ca2b18258daedf",
+    "/assets/icons/icon-128x128.png": "51cdf21a2d51d0fa72d7d25c5362e7e9b354f1de",
+    "/assets/icons/icon-144x144.png": "deb71644c2905fbea8c37183872a031e3c9a8eca",
+    "/assets/icons/icon-152x152.png": "1fbc544e1354ad220f813a602eae3babac0a93c0",
+    "/assets/icons/icon-192x192.png": "3a978f1c4a3d8a265e055995bd588dad1705befd",
+    "/assets/icons/icon-384x384.png": "509fff066891c085c7042ac9d53753eff0978919",
+    "/assets/icons/icon-512x512.png": "936dd936526cac3023d3b9ed6d0b82031ff3db89",
+    "/assets/icons/icon-72x72.png": "48cbb00c4965cc01afe5f8ba18b0e7c504b9c163",
+    "/assets/icons/icon-96x96.png": "20b35e38e5de5c715141d058f45b5fca50b5bc6c",
+    "/assets/pattern.png": "1b84745c361d3dbb5db3fef2c5e3c21e862aa2f7",
+    "/assets/svg-animated/404-error-animate.svg": "a152c93089123c0fcab39f0932a7d5aeb77b82d9",
+    "/assets/svg-animated/artificial-intelligence-animate.svg": "a491c9d047262ccf7fb26c8b9b6b1a0953c61701",
+    "/assets/svg-animated/robotics-animate.svg": "bb6b0b83f601b33fb836dd583eb60f4ec7dd570f",
+    "/assets/svg-animated/server-animate.svg": "3570e386030396659e9af7c2f7b03a3bf5393c28",
+    "/assets/svg-animated/under-construction-animate.svg": "99c94cf15bec93654dd633c677e1955c9d5b296c",
+    "/assets/svg-animated/www-animate.svg": "17cf8c445b5cd1213d0437a0bfe10693ca9f430d",
+    "/assets/team/AugustoFoto.jpeg": "e85e414f10788231b80d3eb4715e93378d89a6d8",
+    "/assets/team/GregoriFoto.jpg": "faa3593eba0128b8b5e89da49865ffc5f3cd94d2",
+    "/assets/team/GuilhermeFoto.jpg": "b5f29a949f4f2bc92a9ee024837657efa4f5490e",
+    "/assets/team/HumbertoFoto.jpg": "8bc084d5d1791bf635cf0d7ec53d9436ad794b56",
+    "/assets/team/HumbertoFoto1.jpg": "e6ed3120e3f61258e25fdc3364d9983e451274d5",
+    "/bg.11dc837bd04d46c73d7f.jpg": "e984c3411408abf7134173e6d2ca2b18258daedf",
+    "/favicon.ico": "83bce59b4ddd5daa3d7eb274454efa13b0baf381",
+    "/index.html": "dd40274dbe3cfa450f3160e34974760f4336a86a",
+    "/main.bbde7bcf6e312651f272.js": "6cca9db668841c00c4fb14ca587c86da49fcb98a",
+    "/manifest.webmanifest": "50ab863c524dacb839648f7f8d91ec0a6e6df1d6",
+    "/pattern.7fbe9d07a32af678461b.png": "1b84745c361d3dbb5db3fef2c5e3c21e862aa2f7",
+    "/polyfills.6abdde2583a2e01a2350.js": "f888b31e000d9b05c8c3fef19c325d813f2b7e1b",
+    "/runtime.7b63b9fd40098a2e8207.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "/styles.d0b4f7742cff6d0e34c9.css": "15664edce9c02621b3907ec85a354eb9e203f27e"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
