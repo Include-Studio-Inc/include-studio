@@ -35,6 +35,8 @@ import { TeamComponent } from './home/team/team.component';
 import { ServicesComponent } from './home/services/services.component';
 import { ErrorComponent } from './error/error.component';
 import { MaintenanceComponent } from './maintenance/maintenance.component';
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
 
 @NgModule({
   declarations: [
@@ -61,7 +63,8 @@ import { MaintenanceComponent } from './maintenance/maintenance.component';
     MatToolbarModule,
     MatListModule,
     MatButtonModule,
-    MatInputModule
+    MatInputModule,
+    ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
   providers: [],
   entryComponents: [AppComponent],
