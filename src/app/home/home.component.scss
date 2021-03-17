@@ -1,7 +1,7 @@
 @import "../../colors.scss";
 
 .parallax-background {
-    background-image: linear-gradient(to bottom, rgb($blue-500, 40%), rgb($red-500, 40%)), url("../../assets/bg1.jpg");
+    background-image: linear-gradient(to bottom, rgb($blue-500, 40%), rgb($red-500, 40%)), url("../../assets/bg.jpg");
     height: 100vh;
     background-attachment: fixed;
     background-position: top;
