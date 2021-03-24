@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1616002789731,
+  "timestamp": 1616605159344,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -32,6 +32,11 @@
         "/assets/IncludeStudio.svg",
         "/assets/IncludeStudio_.svg",
         "/assets/bg.jpg",
+        "/assets/compressed images/AugustoFoto-min.jpeg",
+        "/assets/compressed images/GregoriFoto-min.jpg",
+        "/assets/compressed images/GuilhermeFoto-min.jpg",
+        "/assets/compressed images/HumbertoFoto-min.jpg",
+        "/assets/compressed images/bg-min.jpg",
         "/assets/icons/icon-128x128.png",
         "/assets/icons/icon-144x144.png",
         "/assets/icons/icon-152x152.png",
@@ -51,7 +56,6 @@
         "/assets/team/GregoriFoto.jpg",
         "/assets/team/GuilhermeFoto.jpg",
         "/assets/team/HumbertoFoto.jpg",
-        "/assets/team/HumbertoFoto1.jpg",
         "/bg.11dc837bd04d46c73d7f.jpg",
         "/pattern.7fbe9d07a32af678461b.png"
       ],
@@ -63,6 +67,11 @@
     "/assets/IncludeStudio.svg": "9dad200769f23e1d7e062bd3a54af9477f7e74a7",
     "/assets/IncludeStudio_.svg": "60aab8d5be5171582aa0afaed87f93ded14ce220",
     "/assets/bg.jpg": "e984c3411408abf7134173e6d2ca2b18258daedf",
+    "/assets/compressed images/AugustoFoto-min.jpeg": "d1fa4266e3ec76834eceaf93f57d2f7e5fc92e4a",
+    "/assets/compressed images/GregoriFoto-min.jpg": "a4fa19c9cb35774f245a822e5ad9713410fd2faa",
+    "/assets/compressed images/GuilhermeFoto-min.jpg": "ac9a41d6dcb1332f157749c1bcc6540dd0b49534",
+    "/assets/compressed images/HumbertoFoto-min.jpg": "8ac3fe2e3c31adaa5339fbf09c341b1097af970b",
+    "/assets/compressed images/bg-min.jpg": "4a42ad401090a020b88423c905885a227d99b56c",
     "/assets/icons/icon-128x128.png": "a913f2f48584e517dc02de5919afec4b0c309ddf",
     "/assets/icons/icon-144x144.png": "86a6bf988f759ba23a79f19e4644538b9eb91430",
     "/assets/icons/icon-152x152.png": "7a5c91b09f4f096ad9d03e76907dcb2b84f44714",
@@ -82,7 +91,6 @@
     "/assets/team/GregoriFoto.jpg": "faa3593eba0128b8b5e89da49865ffc5f3cd94d2",
     "/assets/team/GuilhermeFoto.jpg": "b5f29a949f4f2bc92a9ee024837657efa4f5490e",
     "/assets/team/HumbertoFoto.jpg": "8bc084d5d1791bf635cf0d7ec53d9436ad794b56",
-    "/assets/team/HumbertoFoto1.jpg": "e6ed3120e3f61258e25fdc3364d9983e451274d5",
     "/bg.11dc837bd04d46c73d7f.jpg": "e984c3411408abf7134173e6d2ca2b18258daedf",
     "/favicon.ico": "792713b520401b4fe994618e6a4f95d345be393b",
     "/index.html": "6bd72d66f5b9c543a8aea53c80c7048a25db3a90",
