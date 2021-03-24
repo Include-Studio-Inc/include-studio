@@ -78,6 +78,7 @@ export class NavigationComponent implements AfterViewInit {
       this.services = document.getElementById('services')?.getBoundingClientRect();
       this.team = document.getElementById('team')?.getBoundingClientRect();
     }
+    // aqui greg
     let scrollTop = document.documentElement.scrollTop;
     if (this.activeMenu != 'home' && scrollTop > (this.home.y - 56) && scrollTop < (this.about.y - 56)) {
       this.activeMenu = 'home';
