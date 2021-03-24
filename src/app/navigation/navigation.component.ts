@@ -39,12 +39,6 @@ export class NavigationComponent implements AfterViewInit {
 
   ngAfterViewInit() {
     this.handleClose(this.menuButton);
-    // const listItems = this.elementRef.nativeElement.querySelectorAll(
-    //   ".mat-list-item-content"
-    // ) as HTMLElement[];
-    // listItems.forEach(listItem => {
-    //   this.renderer.setStyle(listItem, "padding", "8px");
-    // });
     this.isHandset$.subscribe(response => {
 
       this.isMobile = response;
@@ -111,5 +105,4 @@ export class NavigationComponent implements AfterViewInit {
     this.closeSidenav(drawer);
     this.scroll(id);
   }
-
 }

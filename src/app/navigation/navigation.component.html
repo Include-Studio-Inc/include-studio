@@ -20,35 +20,36 @@
     </mat-toolbar>
 </header>
 
-<mat-sidenav-container>
-    <mat-sidenav #drawer class="sidenav border-0" [mode]="'over'" [fixedInViewport]="true" fixedTopGap="56">
-        <mat-nav-list class="p-0 d-flex align-items-start flex-column h-100">
-            <a mat-list-item (click)="scrollAndClose(drawer, 'home')" class="list-height" [ngClass]="activeMenu == 'home' ? 'selected-item' : ''">
-                <span>Início</span>
-            </a>
-            <a mat-list-item (click)="scrollAndClose(drawer, 'about')" class="list-height" [ngClass]="activeMenu == 'about' ? 'selected-item' : ''">
-                <span>Sobre</span>
-            </a>
-            <a mat-list-item (click)="scrollAndClose(drawer, 'services')" class="list-height" [ngClass]="activeMenu == 'services' ? 'selected-item' : ''">
-                <span>Serviços</span>
-            </a>
-            <a mat-list-item (click)="scrollAndClose(drawer, 'team')" class="list-height" [ngClass]="activeMenu == 'team' ? 'selected-item' : ''">
-                <span>Equipe</span>
-            </a>
-            <div class="flex-grow-1"></div>
-        </mat-nav-list>
-    </mat-sidenav>
+<main>
+    <mat-sidenav-container>
+        <mat-sidenav #drawer class="sidenav border-0" [mode]="'over'" [fixedInViewport]="true" fixedTopGap="56">
+            <mat-nav-list class="p-0 d-flex align-items-start flex-column h-100">
+                <a mat-list-item (click)="scrollAndClose(drawer, 'home')" class="list-height" [ngClass]="activeMenu == 'home' ? 'selected-item' : ''">
+                    <span>Início</span>
+                </a>
+                <a mat-list-item (click)="scrollAndClose(drawer, 'about')" class="list-height" [ngClass]="activeMenu == 'about' ? 'selected-item' : ''">
+                    <span>Sobre</span>
+                </a>
+                <a mat-list-item (click)="scrollAndClose(drawer, 'services')" class="list-height" [ngClass]="activeMenu == 'services' ? 'selected-item' : ''">
+                    <span>Serviços</span>
+                </a>
+                <a mat-list-item (click)="scrollAndClose(drawer, 'team')" class="list-height" [ngClass]="activeMenu == 'team' ? 'selected-item' : ''">
+                    <span>Equipe</span>
+                </a>
+                <div class="flex-grow-1"></div>
+            </mat-nav-list>
+        </mat-sidenav>
 
-    <mat-sidenav-content>
-        <ng-content></ng-content>
-    </mat-sidenav-content>
-</mat-sidenav-container>
+        <mat-sidenav-content>
+            <ng-content></ng-content>
+        </mat-sidenav-content>
+    </mat-sidenav-container>
+</main>
 
 <footer>
     <mat-toolbar id="footer" class="bg-black px-md-5">
         <p class="cursor include-text mb-0" (click)="scroll('home')">Include <span>Studio</span></p>
         <div class="spacer"></div>
         <a class="email text-white" href="mailto:comercial.includestudio@gmail.com">comercial.includestudio@gmail.com</a>
-
     </mat-toolbar>
 </footer>
