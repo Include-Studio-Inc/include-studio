@@ -5,12 +5,12 @@
             <button class="mr-3" #menuButton type="button" aria-label="Toggle sidenav" mat-icon-button (click)="drawer.toggle();">
                 <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
             </button>
-            <img src="assets/IncludeStudio.svg" class="logo-mobile cursor" height="40px" width="auto" [routerLink]="['/']" (click)="scroll('home')">
+            <img src="assets/IncludeStudio.svg" alt="logo da empresa" class="logo-mobile cursor" height="40px" width="auto" [routerLink]="['/']" (click)="scroll('home')">
         </ng-container>
         <ng-template #elseToolbarContent>
             <!-- Desktop -->
             <div class="container">
-                <img src="assets/IncludeStudio.svg" class="cursor" height="40px" width="auto" [routerLink]="['/']" (click)="scroll('home')">
+                <img src="assets/IncludeStudio.svg" alt="logo da empresa" class="cursor" height="40px" width="auto" [routerLink]="['/']" (click)="scroll('home')">
                 <button mat-button color="{{activeMenu == 'home' ? 'primary' : 'accent'}}" class="mx-2 font-weight-bold" (click)="scroll('home')">Início</button>
                 <button mat-button color="{{activeMenu == 'about' ? 'primary' : 'accent'}}" class="mx-2 font-weight-bold" (click)="scroll('about')">Sobre</button>
                 <button mat-button color="{{activeMenu == 'services' ? 'primary' : 'accent'}}" class="mx-2 font-weight-bold" (click)="scroll('services')">Serviços</button>
