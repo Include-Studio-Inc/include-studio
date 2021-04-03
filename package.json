@@ -4,9 +4,8 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
-    "prod": "ng build --prod",
-    "github": "ngh --dir=dist/IncludeWebsite"
+    "build prod": "ng build --prod",
+    "deploy github": "ngh --dir=dist/IncludeWebsite"
   },
   "private": true,
   "dependencies": {
